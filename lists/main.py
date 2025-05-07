@@ -41,7 +41,7 @@ if __name__ == "__main__":
  print(sorted_list)
  sorted_list = sorted(sorted_list, reverse=True)
  print(sorted_list)
- sorted_list = sorted(sorted_list, key=str.lower)#ignoriert Großschreibung
+ sorted_list = sorted(sorted_list, key=str.lower)#ignores upper case
  print(sorted_list)
 
 
